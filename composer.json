@@ -1,0 +1,19 @@
+{
+    "name": "fm/geo-utils",
+    "type": "project",
+    "description": "Library with geo utilities",
+    "keywords": ["geo", "polygon", "gis", "WGS84"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pkruithof",
+            "email": "peter@financial-media.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": { "FM\\Geo": "src/" }
+    }
+}
